@@ -1,0 +1,310 @@
+/* PAGE 1 */
+
+.page-1 .left-part {
+    background: #3b4c9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-1 .left-part .target span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: normal;
+    color: white;
+}
+
+.page-1 .left-part .action span {
+    color: white;
+    font-size: 20px;
+}
+
+.learn-now-btn {
+    width: 166px;
+    height: 68px;
+    background-color: #3CCFCF !important;
+    border: none !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+.page-1 .left-part .role-check a {
+    font-size: 20px;
+    color: #3CCFCF !important;
+    font-weight: 500;
+}
+
+.page-1 .right-part {
+    background: rgb(66, 87, 178);
+}
+
+.page-1 .right-part .slide {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: #364d79;
+}
+
+.page-1 .right-part p.target-student {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.page-1 .slick-dots {
+    opacity: 0;
+}
+
+.page-1 .floating-text {
+    color: #fcfc4b;
+    font-size: 18px;
+    text-align: center;
+    height: 55px;
+}
+
+/* PAGE 2 */
+.page-2 {
+    background-color: #fff;
+}
+
+.page-2 .title p {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-2 .title em {
+    background-image: url(https://assets.quizlet.com/a/i/prismic/scribble.4d59e306220788c.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    line-height: 1.25;
+    padding: 35px;
+}
+
+.page-2 .home-element {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
+
+.page-2 .home-element .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.page-2 .home-element .text .title {
+    font-size: 26px;
+    font-weight: 730;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.page-2 .home-element .text .content {
+    font-size: 19px;
+}
+
+.page-2 .user-review:before {
+    content: url(https://assets.quizlet.com/a/i/prismic/quotes-open.29219853f58a8a5.svg);
+    margin-right: .5rem;
+}
+
+.page-2 .user-review:after {
+    bottom: -1.125rem;
+    content: url(https://assets.quizlet.com/a/i/prismic/quotes-close.bb04b2f98465cc9.svg);
+    margin-left: .5rem;
+    position: relative;
+}
+
+.page-2 .user-review {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page-2 .user-info {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    color: #A9A9A9;
+}
+
+.page-2 .confirm-div .question {
+    font-size: 25px !important;
+    font-weight: 750 !important;
+    margin-top: 120px;
+}
+
+.page-2 .teacher-div {
+    margin-top: 40px;
+}
+
+.page-2 .teacher-div .left {
+    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f2fbf6;
+}
+
+.page-2 .teacher-div .teacher {
+    line-height: 0.9;
+    font-size: 18px;
+    font-weight: 650;
+}
+
+.page-2 .teacher-div .role {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.5;
+}
+
+.page-2 .teacher-div .target {
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.page-2 .teacher-div .link {
+    color: #3CCFCF;
+    font-size: 21.5px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+/* footer */
+.footer {
+    background: rgb(66, 87, 178);
+    padding: 55px 0px;
+    margin-top: 70px !important;
+}
+
+.footer .title {
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 25px !important;
+    font-weight: 450;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer a {
+    color: #fff !important;
+    font-size: 14.7px;
+    font-weight: 350;
+    line-height: 2;
+}
+
+.footer a:hover{
+    color: rgba(255, 255, 255, 0.562) !important;
+}
+
+.footer .lang-select {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.footer .divider {
+    margin-top: 80px;
+}
+
+.footer .divider .MuiDivider-root {
+    background: rgba(255, 255, 255, 0.473) !important;
+}
+
+.footer .contact{
+    margin-top: 20px;
+}
+
+.footer .contact .left {
+    text-align: left;
+}
+
+.footer .contact .right {
+    text-align: right;
+}
+
+.footer .contact .left .contact-icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.footer .contact .left .contact-icon-last{
+    margin-right: 0px;
+}
+
+.footer .contact .right .copyright {
+    color: white;
+    font-size: 18px;
+}
+
+/* ---responsive----- */
+@media only screen and (max-width: 600px) {
+
+    /* page 1 */
+    .page-1 .left-part .target span {
+        font-size: 30px;
+    }
+
+    .page-1 .left-part .action span {
+        font-size: 16px;
+    }
+
+    .page-1 .left-part .role-check a {
+        font-size: 17px;
+    }
+
+    .page-1 .right-part p.target-student {
+        font-size: 18px;
+    }
+
+    .page-1 .floating-text {
+        font-size: 16px;
+    }
+
+    /* page 2 */
+    .page-2 .title {
+        padding: 0px !important;
+    }
+
+    .page-2 .title em {
+        display: block;
+    }
+
+    .page-2 .home-element {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .page-2 .home-element .text {
+        padding: 5px;
+    }
+
+    .page-2 .user-review {
+        font-size: 25px;
+    }
+
+    .page-2 .user-info {
+        font-size: 15px;
+    }
+
+    .page-2 .teacher-div .left {
+        padding: 20px 5px;
+    }
+
+    .page-2 .teacher-div .role {
+        line-height: 0.9;
+    }
+
+    .footer .contact .left, .footer .contact .right  {
+        text-align: center;
+    }
+    
+}
