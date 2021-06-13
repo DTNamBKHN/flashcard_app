@@ -5,7 +5,6 @@ import { Button } from "antd";
 import "@styles/CreateFolder.css";
 import { requestCreateFolder } from "@constants/Api";
 import NotifyContext from "@context/NotifyContext";
-import reactotron from "reactotron-react-js";
 import { getFolders } from "@src/redux/actions";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
@@ -98,7 +97,6 @@ class CreateFolder extends Component {
       this.props.getFolders({ page: 1 });
       this.props.history.push(ROUTER.FOLDER);
     } catch (e) {
-      reactotron.log("them folder", e);
       this.context("error", "Thất bại", e.msg);
       this.setState({ loading: false });
     }

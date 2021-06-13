@@ -33,7 +33,6 @@ import {
 } from "@constants/Api";
 import { connect } from "react-redux";
 import { getUserInfo } from "@src/redux/actions";
-import reactotron from "reactotron-react-js";
 import NotifyContext from "@context/NotifyContext";
 import Loading from "@components/Loading";
 
@@ -234,7 +233,6 @@ class Header extends Component {
   };
 
   handlePopover = (e, popover, anchor) => {
-    reactotron.log(popover, anchor);
     this.setState({
       [popover]: !this.state[popover],
       [anchor]: e?.currentTarget || null,
@@ -319,7 +317,6 @@ class Header extends Component {
       this.context("success", "Thành công", "Đăng kí tài khoản thành công.");
     } catch (e) {
       this.setState({ registerLoading: false });
-      reactotron.log("err register", e, registerForm);
       this.context("error", "Thất bại", "Đăng kí tài khoản thất bại.");
     }
   };
