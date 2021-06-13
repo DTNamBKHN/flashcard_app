@@ -207,7 +207,7 @@ class Header extends Component {
       );
     } else {
       return (
-        <Col md={7} className="button">
+        <Col md={6} className="button">
           <Row className="align-items-center justify-content-center justify-content-md-end">
             <span
               className="login-link font-weight-bold"
