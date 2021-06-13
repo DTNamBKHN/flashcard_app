@@ -38,8 +38,8 @@
     "eject": "react-scripts eject",
     "dev": "react-scripts start",
     "start": "serve -s build",
-    "build": "react-scripts build",
-    "heroku-postbuild": "npm run build"
+    "build": "react-app-rewired build",
+    "heroku-postbuild": "yarn run build"
   },
   "eslintConfig": {
     "extends": "react-app"
