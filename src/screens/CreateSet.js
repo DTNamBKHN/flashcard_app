@@ -186,7 +186,7 @@ class CreateSet extends Component {
       }
 
       this.context("success", "Thành công", "Thêm mới học phần thành công");
-      this.props.history.push(ROUTER.RECENT_ACT);
+      this.props.history.push(ROUTER.CREATE_SET);
     } catch (e) {
       this.setState({
         loading: false,
